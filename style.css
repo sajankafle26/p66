@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body 
+{
+    font-family: "Lato", sans-serif;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: bold;
+}
+.hero 
+{
+    height: 100vh;
+    background: linear-gradient(#00000069,#0000008a),url(https://nepalwanders.com/wp-content/uploads/2023/08/4-1.jpg);
+}
+.logo 
+{
+    width: 90px;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+.grey 
+{
+    background: #F5F5F5;
+  color: #5A564F;
+}
+.tour img 
+{
+    height: 200px;
+    object-fit: cover;
+}
+.nav-pills .nav-link.active
+{
+    background: transparent;
+    color: #000;
+}
+.nav-pills .nav-link
+{
+    color: #999;
+}
